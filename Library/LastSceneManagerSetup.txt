@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scene/Level_Menu.unity
+  isLoaded: 1
+  isActive: 1

@@ -1,6 +1,6 @@
 # Tic Tak - A First-Person Puzzling Adventure
 
-Tic Tak is an enthralling first-person puzzling game that blends mystery and puzzle-solving in a hauntingly atmospheric environment. Embark on an immersive journey filled with enigmatic challenges and intriguing storyline.
+Tic Tak is an enthralling first-person puzzling game that blends mystery and puzzle-solving in a hauntingly atmospheric environment made with Unity. Embark on an immersive journey filled with enigmatic challenges and intriguing storyline.
 
 ## Overview
 

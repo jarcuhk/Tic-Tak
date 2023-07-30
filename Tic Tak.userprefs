@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\level_2\tictak_color.cs">
+    <Files>
+      <File FileName="Assets\Script\level_3\tictakChess.cs" Line="19" Column="72" />
+      <File FileName="Assets\Script\LoadSceneOnClick.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\LoadLevel.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\ending\trueEnding.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\ending.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\ending\fakeEnding.cs" Line="13" Column="22" NotebookId="1" />
+      <File FileName="Assets\Script\LoadSceneByTrigger.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets\Script\level_2\tictak_color.cs" Line="34" Column="4" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

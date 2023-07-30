@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F7714D51-C5FA-BB43-7DE7-33E5CF0F4224}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Particle Ribbon\Scripts\ReverseNormals.cs" />
+     <Compile Include="Assets\Script\CancelPanelOnClick.cs" />
+     <Compile Include="Assets\Script\ExitGameOnClick.cs" />
+     <Compile Include="Assets\Script\FirstPersonController.cs" />
+     <Compile Include="Assets\Script\LoadLevel.cs" />
+     <Compile Include="Assets\Script\LoadSceneByTrigger.cs" />
+     <Compile Include="Assets\Script\LoadSceneOnClick.cs" />
+     <Compile Include="Assets\Script\Save.cs" />
+     <Compile Include="Assets\Script\clearLevel.cs" />
+     <Compile Include="Assets\Script\ending.cs" />
+     <Compile Include="Assets\Script\ending\bye.cs" />
+     <Compile Include="Assets\Script\ending\fakeEnding.cs" />
+     <Compile Include="Assets\Script\ending\trueEnding.cs" />
+     <Compile Include="Assets\Script\level_1\crow_rock.cs" />
+     <Compile Include="Assets\Script\level_1\crowbar_hint.cs" />
+     <Compile Include="Assets\Script\level_1\get_crowbar.cs" />
+     <Compile Include="Assets\Script\level_1\get_eye1.cs" />
+     <Compile Include="Assets\Script\level_1\get_eye2.cs" />
+     <Compile Include="Assets\Script\level_1\get_key.cs" />
+     <Compile Include="Assets\Script\level_1\get_mouth.cs" />
+     <Compile Include="Assets\Script\level_1\get_nose1.cs" />
+     <Compile Include="Assets\Script\level_1\get_nose2.cs" />
+     <Compile Include="Assets\Script\level_1\get_statue_key.cs" />
+     <Compile Include="Assets\Script\level_1\get_treasure.cs" />
+     <Compile Include="Assets\Script\level_1\input_password.cs" />
+     <Compile Include="Assets\Script\level_1\logic_control.cs" />
+     <Compile Include="Assets\Script\level_1\lv1_item_control.cs" />
+     <Compile Include="Assets\Script\level_1\open_door.cs" />
+     <Compile Include="Assets\Script\level_1\plant_button.cs" />
+     <Compile Include="Assets\Script\level_1\timer.cs" />
+     <Compile Include="Assets\Script\level_1\turn_frog.cs" />
+     <Compile Include="Assets\Script\level_1\turn_moai.cs" />
+     <Compile Include="Assets\Script\level_1\turn_skull.cs" />
+     <Compile Include="Assets\Script\level_2\buildLighter.cs" />
+     <Compile Include="Assets\Script\level_2\floorHint.cs" />
+     <Compile Include="Assets\Script\level_2\getDisc.cs" />
+     <Compile Include="Assets\Script\level_2\getFuel.cs" />
+     <Compile Include="Assets\Script\level_2\getGem.cs" />
+     <Compile Include="Assets\Script\level_2\lightUp.cs" />
+     <Compile Include="Assets\Script\level_2\lv2_item_control.cs" />
+     <Compile Include="Assets\Script\level_2\lv2_logic_control.cs" />
+     <Compile Include="Assets\Script\level_2\lv2_timer.cs" />
+     <Compile Include="Assets\Script\level_2\openCabinet.cs" />
+     <Compile Include="Assets\Script\level_2\openGate.cs" />
+     <Compile Include="Assets\Script\level_2\playDisc.cs" />
+     <Compile Include="Assets\Script\level_2\safebox.cs" />
+     <Compile Include="Assets\Script\level_2\stepButton.cs" />
+     <Compile Include="Assets\Script\level_2\tictak_color.cs" />
+     <Compile Include="Assets\Script\level_3\gatePW.cs" />
+     <Compile Include="Assets\Script\level_3\gateTicTak.cs" />
+     <Compile Include="Assets\Script\level_3\getSheet.cs" />
+     <Compile Include="Assets\Script\level_3\lv3_item_control.cs" />
+     <Compile Include="Assets\Script\level_3\lv3_logic_control.cs" />
+     <Compile Include="Assets\Script\level_3\lv3_timer.cs" />
+     <Compile Include="Assets\Script\level_3\openBook.cs" />
+     <Compile Include="Assets\Script\level_3\openOfficeDoor.cs" />
+     <Compile Include="Assets\Script\level_3\playPiano.cs" />
+     <Compile Include="Assets\Script\level_3\tictakChess.cs" />
+     <Compile Include="Assets\UI\Scripts\ActiveStateToggler.cs" />
+     <Compile Include="Assets\UI\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\UI\Scripts\ChangeColor.cs" />
+     <Compile Include="Assets\UI\Scripts\DragMe.cs" />
+     <Compile Include="Assets\UI\Scripts\DragPanel.cs" />
+     <Compile Include="Assets\UI\Scripts\DropMe.cs" />
+     <Compile Include="Assets\UI\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\UI\Scripts\ResizePanel.cs" />
+     <Compile Include="Assets\UI\Scripts\ScrollDetailTexture.cs" />
+     <Compile Include="Assets\UI\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\UI\Scripts\TiltWindow.cs" />
+     <None Include="Assets\UI\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\UI\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\Particle Ribbon\readme_Simple_Particle_Ribbon.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{2FD9EA09-02FF-CF27-7166-5591C14E0481}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

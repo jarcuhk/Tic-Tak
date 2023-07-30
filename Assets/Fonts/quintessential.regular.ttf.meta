@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fe73f74ab5423ad4e915a4601e8376e1
+timeCreated: 1490636765
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Quintessential
+  fontNames:
+  - Quintessential
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

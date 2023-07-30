@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d611bb00d7fa3854780989d05acbad16
+timeCreated: 1490633904
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Qaskin White Personal Use
+  fontNames:
+  - Qaskin White Personal Use
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
